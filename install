@@ -1,0 +1,8 @@
+#! /bin/sh
+
+sudo apt install python3-gpiozero
+
+sudo mkdir -p /usr/local/bin
+sudo cp rpi4_fan_control.py /usr/local/bin
+
+sudo mkdir -p /var/log/rpi4_fan_control
